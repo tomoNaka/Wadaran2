@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical"
+              android:background="#ff69b4" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_weight="4"
+        android:layout_height="0dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/main_pig"
+                android:layout_gravity="top"
+                 />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="シチュエーションを選択"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="120dp"
+                android:textSize="30sp"
+                android:textColor="#FFFF0000"
+                android:id="@+id/textView"/>
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="合コン"
+        android:background="#ffffff"
+        android:id="@+id/button_gokon"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textSize="30sp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="デート"
+        android:id="@+id/button_date"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="#ffffff"
+        android:layout_marginTop="10dp"
+        android:contextClickable="false"
+        android:textStyle="bold"
+        android:textSize="30sp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="宴会"
+        android:id="@+id/button_nomi"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="#ffffff"
+        android:clickable="true"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+
+
+</LinearLayout>
+
